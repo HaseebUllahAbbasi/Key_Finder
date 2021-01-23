@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="819.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller">
+   <fx:define>
+      <Image fx:id="btnImage" url="Resources/home_48px.png"  requestedHeight="32.0"  />
+   </fx:define>
+   <Button layoutX="1.0" layoutY="88.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="0 0" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="103.0" layoutY="88.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="0 1" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="205.0" layoutY="88.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="0 2" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="307.0" layoutY="88.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="0 3" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="409.0" layoutY="88.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="0 4" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="511.0" layoutY="88.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="0 5" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="613.0" layoutY="88.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="0 6" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="715.0" layoutY="88.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="0 7" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="1.0" layoutY="129.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="1 0" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="103.0" layoutY="129.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="1 1" textFill="SILVER" > <graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="205.0" layoutY="129.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="1 2" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="307.0" layoutY="129.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="1 3" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="409.0" layoutY="129.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="1 4" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="511.0" layoutY="129.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="1 5" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="613.0" layoutY="129.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="1 6" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="715.0" layoutY="129.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="1 7" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="1.0" layoutY="170.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="2 0" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="103.0" layoutY="170.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="2 1" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="205.0" layoutY="170.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="2 2" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="307.0" layoutY="170.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="2 3" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="409.0" layoutY="170.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="2 4" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="511.0" layoutY="170.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="2 5" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="613.0" layoutY="170.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="2 6" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="715.0" layoutY="170.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="2 7" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="1.0" layoutY="211.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="3 0" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="103.0" layoutY="211.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="3 1" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="205.0" layoutY="211.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="3 2" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="307.0" layoutY="211.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="3 3" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="409.0" layoutY="211.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="3 4" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="511.0" layoutY="211.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="3 5" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="613.0" layoutY="211.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="3 6" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="715.0" layoutY="211.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="3 7" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="1.0" layoutY="252.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="4 0" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="103.0" layoutY="252.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="4 1" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="205.0" layoutY="252.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="4 2" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="307.0" layoutY="252.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="4 3" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="409.0" layoutY="252.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="4 4" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="511.0" layoutY="252.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="4 5" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="613.0" layoutY="252.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="4 6" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="715.0" layoutY="252.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="4 7" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="1.0" layoutY="293.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="5 0" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="103.0" layoutY="293.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="5 1" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="205.0" layoutY="293.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="5 2" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="307.0" layoutY="293.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="5 3" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="409.0" layoutY="293.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="5 4" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="511.0" layoutY="293.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="5 5" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="613.0" layoutY="293.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="5 6" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="715.0" layoutY="293.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="5 7" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="1.0" layoutY="334.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="6 0" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="103.0" layoutY="334.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="6 1" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="205.0" layoutY="334.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="6 2" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="307.0" layoutY="334.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="6 3" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="409.0" layoutY="334.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="6 4" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="511.0" layoutY="334.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="6 5" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="613.0" layoutY="334.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="6 6" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="715.0" layoutY="334.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="6 7" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="1.0" layoutY="375.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="7 0" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="103.0" layoutY="375.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="7 1" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="205.0" layoutY="375.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="7 2" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="307.0" layoutY="375.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="7 3" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="409.0" layoutY="375.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="7 4" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="511.0" layoutY="375.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="7 5" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="613.0" layoutY="375.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="7 6" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="715.0" layoutY="375.0" mnemonicParsing="false" onAction="#check_key" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: silver;" text="7 7" textFill="SILVER" ><graphic><ImageView image="$btnImage" /></graphic></Button>
+   <Button layoutX="11.0" layoutY="24.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: red;" text="1" textFill="SILVER">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </Button>
+   <Button layoutX="125.0" layoutY="24.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: CRIMSON;" text="2" textFill="WHITE">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Button>
+   <Button layoutX="251.0" layoutY="24.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: pink;" text="3" textFill="WHITE">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Button>
+   <Button layoutX="366.0" layoutY="24.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: purple;" text="4" textFill="WHITE">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Button>
+   <Button layoutX="496.0" layoutY="24.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: lightblue;" text="5" textFill="WHITE">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Button>
+   <Label fx:id="counter" layoutX="613.0" layoutY="33.0" text="Counter">
+      <font>
+         <Font size="22.0" />
+      </font>
+   </Label>
+   <Label fx:id="avg" layoutX="715.0" layoutY="33.0" text="0">
+      <font>
+         <Font size="22.0" />
+      </font>
+   </Label>
+</AnchorPane>
